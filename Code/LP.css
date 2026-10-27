@@ -1,0 +1,99 @@
+@import url('https://googleapis.com');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'roboto',sans-serif;
+}
+
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 500px;
+    background: #1f2937;
+    padding: 12px;
+    color: white
+}
+
+.left-navi {
+    display: flex;
+    color: lightgray;
+    gap: 24px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #1f2937;
+    padding: 24px;
+    color: white;
+    gap: 24px;
+}
+
+.hero-sub {
+    display: flex;
+    flex-direction: column;
+    color: lightgray;
+}
+
+.left-htxt {
+    flex: 1;
+}
+
+.right-htxt {
+    flex: 1;
+}
+
+.kitty-kat {
+    height: 500px;
+    width: 800px;
+    padding: 100px;
+}
+
+.signup {
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 4px;
+    padding: 9px 18px;
+    font-size: 12px;
+    height: 100px;
+    width: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.information {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.serious-pngs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.cat {
+    height: 150px;
+    width: 150px;
+}
+
+.serious-txt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 125px;
+    text-align: justify;
+    padding: 0px;
+}
+
